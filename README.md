@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Instructions:
 
-Things you may want to cover:
+- Clone this repo to your machine
+- Run `bundle install` to install dependencies
+- Run `bin/rails db:migrate` to set up tables
+- Items can be created in the `rails console`
+- Run `rspec spec/item_spec.rb` to run tests
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+In the interest of time, I used a Rails application generator so not all the files are relevant to this particular project. The files containing the implementation and test code are `/app/models/item.rb` and `/spec/item_spec.rb`
