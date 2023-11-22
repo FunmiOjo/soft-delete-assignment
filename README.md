@@ -1,5 +1,7 @@
 # README
 
+This repository implements a feature where items can be soft deleted and restored from soft deletion. When an item is soft deleted, the `deleted_at` attribute on its record is updated to the current time. When it is restored, the `deleted_at` attribute is updated to nil, which is also the default `deleted_at` value. The default scope excludes items that have been soft deleted from queries unless the scope is explicity bypassed.
+
 Instructions:
 
 - Clone this repo to your machine
